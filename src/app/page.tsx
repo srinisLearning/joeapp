@@ -1,3 +1,4 @@
+import { DropdownMenuDemo } from "@/components/DropdownMenu";
 import Image from "next/image";
 
 export default function Home() {
@@ -14,6 +15,7 @@ export default function Home() {
       <h3 className="flex justify-center items-center text-3xl text-primary-400 font-black mt-4">
         This is tertiary color
       </h3>
+      <DropdownMenuDemo />
     </>
   );
 }
